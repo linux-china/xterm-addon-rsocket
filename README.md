@@ -20,3 +20,8 @@ const rsocketAddon = new RSocketAddon('ws://localhost:8080/rsocket');
 // Attach the rsocket to term
 term.loadAddon(rsocketAddon);
 ```
+
+# References
+
+* RSocket: http://rsocket.io
+* Spring Boot RSocket: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-rsocket
